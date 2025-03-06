@@ -1,7 +1,7 @@
-# Dockerfile for WSO2 Identity Server #
+# Dockerfile for WSO2 Identity Server with Post-Quantum TLS #
 
 This section defines the step-by-step instructions to build an [Ubuntu](https://hub.docker.com/_/ubuntu/) Linux
-based Docker image for WSO2 Identity Server `7.1.0`.
+based Docker image for WSO2 Identity Server `7.1.0` with [Post-Quantum TLS support](https://is.docs.wso2.com/en/7.1.0/deploy/security/configure-post-quantum-tls/).
 
 ## Prerequisites
 
