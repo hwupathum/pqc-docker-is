@@ -149,7 +149,5 @@ ENV JAVA_OPTS="-Djava.util.prefs.systemRoot=${USER_HOME}/.java -Djava.util.prefs
 # Expose ports.
 EXPOSE 4000 9763 9443
 
-RUN chmod +x /home/wso2carbon/docker-entrypoint.sh
-
 # Initiate container and start WSO2 Carbon server.
 ENTRYPOINT ["/home/wso2carbon/docker-entrypoint.sh"]
